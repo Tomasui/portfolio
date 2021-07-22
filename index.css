@@ -120,11 +120,21 @@ justify-content: space-between;
 box-shadow: 0 2px 1rem var(--dark-026);
 }
 
-
 .icon{
 
 width: 75px;
 
-
+margin: 60px 0px 0px 150px;
 
 }
+
+.menu{
+
+  margin: 60px 150px 0px 0px;
+
+}
+
+
+
+
+
