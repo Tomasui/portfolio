@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+</head>
+<body>
+  <form action="" method="post">
+
+    <h3>contact</h3>
+
+    <div class="Form">
+
+    <input type="hidden" name="number" value="X00000">
+
+    <div class="Form2">
+        <p class="Form3">
+      <label for="simei">氏名</label>
+    </p>
+      <input type="text" class="Form4" name="onamae" id="onamae" required>
+    </div>
+
+    <div class="Form2">
+        <p class="Form3">
+      <label for="email">メールアドレス</label>
+        </p>
+      <input type="email" class="Form4" name="email" id="email">
+    </div>
+
+
+    <div class="Form2">
+        <p class="Form3">
+      <label for="bangou">電話番号</label>
+        </p>
+      <input type="tel" class="Form4" name="telno" id="telno">
+    </div>
+
+
+    <div class="Form2">
+        <p class="Form3">
+        <label for="hensin">返信が必要ですか？</label>
+        </p>
+        <p class="Form5">
+      <input type="checkbox" name="ismustrep" id="ismustrep">
+      <label for="ismustrep">必要です</label>
+        </p>
+    </div>
+
+    <div class="Form2">
+        <p class="Form3">
+        <label for="maildenwa">ご希望の連絡手段</label>
+        </p>
+        <p class="Form5">
+      <input type="radio" name="means" id="means1" value="mail">
+      <label for="means1">メール</label>
+      <input type="radio" name="means" id="means2" value="tel">
+      <label for="means2">電話</label>
+        </p>
+    </div>
+
+    <div class="Form2">
+        <p class="Form3">
+      <label for="contacttext">お問い合わせ内容</label>
+        </p>
+      <textarea name="contacttext" class="Form7" id="contacttext" cols="50" rows="10" required>
+      </textarea>
+    </div>
+    <button type="submit" class="Form8">送信</button>
+
+  </form>
+</body>
+</html>
