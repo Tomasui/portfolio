@@ -9,10 +9,14 @@
 
 .meisi{
 
-    display: block;
     margin-top: 4%;
     margin-left: 17.5%;
     width: 20%;
     margin-bottom: 200px;
 
+}
+
+.movie{
+
+    width: 65%;
 }
