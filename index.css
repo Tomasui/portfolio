@@ -138,9 +138,26 @@ margin: 60px 0px 0px 150px;
 
 .about{
 
-
   height: 500px;
   width: 100%;
+  text-align: center;
+  
+
+}
+
+h1{
+
+  padding-top: 200px;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+
+}
+
+h2{
+
+  padding-top: 200px;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
 
 }
 
