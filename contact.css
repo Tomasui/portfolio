@@ -1,21 +1,19 @@
-html,body,div,h1,h2{
+html,body,div{
     margin: 5px;
     padding: 5px;
 
 }
 
-h1,h3{
+h1{
 
-    font-family: serif;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+
 }
 
-h3{
 
-    font-size: 17px;
-}
-
-
-.Form,h1,h3{
+.Form,h1{
 
     margin-top: 80px;
     margin-left: auto;
@@ -83,16 +81,17 @@ h3{
 
     border-radius: 6px;
     margin-top: 32px;
+    width: 280px;
+    background: #5bc8ac;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 280px;
-    display: block;
-    letter-spacing: 0.05em;
-    background: #5bc8ac;
+}
+
+h2{
+
     color: #fff;
-    font-weight: bold;
-    font-size: 20px;
+    display: block;
+    text-align: center;
 
 }
