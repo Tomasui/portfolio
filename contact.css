@@ -1,0 +1,98 @@
+html,body,div,h1,h2{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+h1,h3{
+
+    font-family: serif;
+}
+
+h3{
+
+    font-size: 17px;
+}
+
+
+.Form,h1,h3{
+
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+.Form2{
+
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+
+}
+
+.Form3{
+
+    width: 100%;
+
+    max-width: 200px;
+}
+
+.Form4{
+
+    height: 60px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 10em;
+    background: #eaedf2;
+}
+
+.Form5{
+
+    margin-left: 40px;
+
+}
+
+.Form6{
+
+    margin-left: 40px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #eaedf2;
+    height: 50px;
+}
+
+.Form7{
+
+    height: 160px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 10em;
+    background: #eaedf2;
+}
+
+.Form8{
+
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #5bc8ac;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
