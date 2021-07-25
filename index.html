@@ -8,6 +8,7 @@
 <!--==============CSS読み込み===============-->
     <link href="index.css" rel="stylesheet">
     <link href="sakuhin.css" rel="stylesheet">
+    <link href="lightbox.min.css" rel="stylesheet">
 
 </head>
 
@@ -63,11 +64,13 @@
             </section>
 
         <!--==============作品===============-->
-        <img src="img/tank.jpg" class="tank">
-        <img src="img/meisi.png" class="meisi">
-
+        
+        <a href="img/tank.jpg" data-lightbox="gallery1" 
+        data-title="グループ1キャプション"><img src="img/tank.jpg" class="tank"></a>
+        <a href="img/meisi.png" data-lightbox="gallery1" 
+        data-title="グループ1キャプション"><img src="img/meisi.png" class="meisi"></a>
         </nav>
-
+    
         <!--==============電話番号===============-->
         <p>e-mailaddress x20049xx@aitech.ac.jp</p>
 
@@ -75,8 +78,10 @@
 
     
      <!--==============JQuery読み込み===============-->
-     <script src="jquery-3.6.0.min.js"></script>
+      <script src="jquery-3.6.0.min.js"></script>
       <script src="index.js"></script>
+      <script src="lightbox.min.js"></script>
+
 
 
 
