@@ -9,14 +9,21 @@
 
 .meisi{
 
+    display: block;
     margin-top: 4%;
-    margin-left: 17.5%;
+    margin-right: auto;
+    margin-left: auto;
     width: 20%;
-    margin-bottom: 200px;
 
 }
 
 .movie{
 
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
     width: 65%;
+    margin-bottom: 200px;
 }
+
